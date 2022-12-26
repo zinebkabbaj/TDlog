@@ -205,7 +205,7 @@ def map_to_weapon(weapon_entity: WeaponEntity)-> optimal[Weapon]:
             weapon.ammunitions= weapon_entity.ammunitions
             return Weapon  
 
-def map_to_game_entity(game: Game)-> GameEntity:
+def map_to_game_entity(game:Game)-> GameEntity:
     game_entity=GameEntity()
     if game.get_id() is not None:
         game_entity.id= game.get_id():
